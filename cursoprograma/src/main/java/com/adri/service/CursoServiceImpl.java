@@ -2,12 +2,17 @@ package com.adri.service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
 import com.adri.model.Curso;
+
+/**
+ * @author Adrian Armesto
+ * Clase que implementa el array con cursos de ejemplo.
+ * Contiene todos los metodos que hacen falta para hecer el CRUD.
+ */
 
 @Service
 public class CursoServiceImpl implements CursoService{
@@ -37,6 +42,12 @@ public class CursoServiceImpl implements CursoService{
 
         return cursos;
     }
+
+    /**
+     * @param stream()
+     * Utilizo un stream para obtener el objeto Curso
+     * del parametro que me han pasado
+     */
 
     @Override
     public Curso buscarCurso(int codigo) {

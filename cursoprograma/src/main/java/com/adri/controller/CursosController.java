@@ -15,6 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.adri.model.Curso;
 import com.adri.service.CursoService;
 
+/**
+ * @author Adrian Armesto
+ * @param CursoService instanciamos la clase para llamar a su metodos.
+ * 
+ * Clase que se encarga de hacer los mapeos de las peticiones web.
+ */
+
 @RestController
 public class CursosController {
 
